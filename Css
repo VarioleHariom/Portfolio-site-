@@ -1,0 +1,141 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #181818;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav h1 {
+    color: #00c8ff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-content h2 span {
+    color: #00c8ff;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #00c8ff;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.timeline {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+}
+
+.timeline ul {
+    list-style: none;
+    text-align: left;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin: 10px;
+    width: 200px;
+}
+
+.progress-bar {
+    background-color: #333;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    background-color: #00c8ff;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00c8ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+}
